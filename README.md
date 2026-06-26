@@ -4,14 +4,14 @@ Backend service for **Prep Buddy**, an AI interview practice platform. Persists 
 
 ## Stack
 
-| Layer | Choice | Why |
+| Layer | Choice | 
 |---|---|---|
-| Runtime | Node.js 20+ | LTS, stable TypeScript support |
-| Framework | Express | Clear REST mapping, easy local dev and deployment |
-| Database | Firestore (firebase-admin) | Required by spec; server-side trusted writes |
-| LLM | Gemini (`gemini-2.0-flash`) | Free tier via Google AI Studio; fast, short feedback |
-| Validation | Zod | Typed schemas, clear 400 errors |
-| Logging | Pino | Structured logs for production |
+| Runtime | Node.js 20+ | 
+| Framework | Express | 
+| Database | Firestore (firebase-admin) | 
+| LLM | Gemini (`gemini-2.0-flash`) | 
+| Validation | Zod | 
+| Logging | Pino |
 
 ## Prerequisites
 
@@ -29,7 +29,7 @@ Backend service for **Prep Buddy**, an AI interview practice platform. Persists 
 3. Click **Create API key**.
 4. Copy the key — you will set it as `GEMINI_API_KEY` in `.env`.
 
-> **Note:** Free tier has rate limits (requests per minute/day). If exceeded, the API returns `503 Service Unavailable`.
+>
 
 ---
 
