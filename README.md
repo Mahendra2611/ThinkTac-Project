@@ -1,4 +1,4 @@
-# Prep Buddy — Interview Feedback API
+# Prep Buddy : Interview Feedback API
 
 Backend service for **Prep Buddy**, an AI interview practice platform. Persists interview sessions and generates short AI feedback using **Google Gemini**, stored in **Firestore**.
 
