@@ -1,0 +1,18 @@
+node_modules/
+dist/
+.env
+*.log
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+*-service-account.json
+!firebase/serviceAccount.example.json
+.DS_Store
+
+# Local environment variables containing API Keys
+.env
+.env.example
+PLAN.md
+# Firebase service account private credentials
+firebase/serviceAccount.json
+node_modules/

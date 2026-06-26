@@ -1,0 +1,9 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Backend uses Admin SDK; rules apply to direct client access only.
+    match /sessions/{sessionId} {
+      allow read, write: if false;
+    }
+  }
+}
